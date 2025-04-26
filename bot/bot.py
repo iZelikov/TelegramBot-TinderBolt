@@ -26,11 +26,14 @@ async def hello(update, context):
         await opener_dialog(update, context)
     else:
         first_name = update.message.chat.first_name
+        user_name = '@'+update.message.chat.username
+
+        name = first_name or user_name
         text = update.message.text
         await send_photo(update, context, 'avatar_main')
-        await send_text(update, context, f'Привет, *{first_name}*!')
+        await send_text(update, context, f'Привет *{name}*')
         await send_text(update, context, f'Вы только что написали: _{text}_')
-        await send_text(update, context, f'Вместо этого лучше выберите одну из команд в *Меню*.')
+        await send_text(update, context, f'Вместо этого лучше выберите одну из команд в *Меню*')
 
 
 async def hello_buttons(update, context):
