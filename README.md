@@ -1,4 +1,6 @@
 # TinderBolt
+![Иллюстрация, изображающая искусственный интеллект]/blob/main/bot/resources/images/avatar_main.jpg
+
 Учебный Телеграм бот с ChatGPT и эмуляцией свиданий в Тиндере
 
 Точка входа: *bot.py*
