@@ -1,5 +1,5 @@
 # TinderBolt
-![Иллюстрация, изображающая искусственный интеллект]bot/resources/images/avatar_main.jpg
+![Иллюстрация, изображающая искусственный интеллект](/bot/resources/images/avatar_main.jpg)
 
 Учебный Телеграм бот с ChatGPT и эмуляцией свиданий в Тиндере
 
